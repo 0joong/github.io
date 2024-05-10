@@ -12,7 +12,7 @@ function showTime() {
     seconds = seconds < 10 ? '0' + seconds : seconds;
   
     const time = `${hours}:${minutes}:${seconds} ${session}`;
-    document.getElementById('clock').innerText = time;
+    document.getElementById('time').innerText = time;
   
     setTimeout(showTime, 1000); // 1초 후에 함수를 다시 실행
   }
