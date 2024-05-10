@@ -1007,7 +1007,7 @@ grid-template-areas:
   grid-area : time;
   width: 10vw; /* 원래 너비 유지 */
 }
-#ownerbutton{
+#ownerButton{
   grid-area : ownerbutton;
   width: 10vw; /* 원래 너비 유지 */
 }
@@ -1027,7 +1027,7 @@ grid-template-areas:
   height: 50px; /* 원래 높이 유지 */
   
 }
-#messagebox{
+#messageBox{
   grid-area: messagebox;
   width: 10vw; /* 원래 너비 유지 */
 }
